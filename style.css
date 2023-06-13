@@ -1,0 +1,36 @@
+.carrosel{
+    position: absolute;
+width: 1451px;
+height: 270px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+}
+.sangue{
+    position: absolute;
+    width: 1451px;
+    height: 784px;
+    left: 1px;
+    top: 270px;
+    
+    background: #D9ABFF;
+}
+.titulos{
+    position: absolute;
+    width: 1132px;
+    height: 83px;
+    left: 138px;
+    top: 270px;
+    
+    font-family: 'Irish Grover';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 103px;
+    text-align: center;
+    
+    color: #000000;
+    
+    
+}
