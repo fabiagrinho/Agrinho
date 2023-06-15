@@ -1,45 +1,38 @@
+@import url(styles/header.css);
 
-.carrossel{
-    width: 605px;
-    height: 270px;
-    margin-left: 650px;
-    top: 0px;
-    
 
-}
 .sangue{
-    height: 784px;
+    height: 700px;
     left: 1px;
     top: 270px;
 background: #D9ABFF;
 }
 .titulo{
-    position: absolute;
-width: 1600px;
-height: 83px;
-left: 138px;
-top: 270px;
+position: absolute;
+width: 790px;
+left: 260px;
+top: 210px;
 
 font-family: 'Irish Grover';
 font-style: normal;
-font-weight: 400;
-font-size: 85px;
+font-weight: 200;
+font-size: 65px;
 line-height: 103px;
 text-align: center;
 
-color: #000000;
+color: #000000
 }
 .escrita{
     position: absolute;
-width: 1051px;
+width: 900px;
 height: 182px;
-left: 77px;
-top: 477px;
+left: 48px;
+top: 350px;
 
 font-family: 'Inter';
 font-style: normal;
-font-weight: 400;
-font-size: 40px;
+font-weight: 300;
+font-size: 29px;
 line-height: 48px;
 
 color: #000000;
@@ -48,15 +41,41 @@ color: #000000;
     position: absolute;
 width: 995px;
 height: 185px;
-left: 93px;
-top: 770px;
+left: 48px;
+top: 500px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 40px;
+font-size: 29px;
 line-height: 48px;
 
 color: #000000;
 
+}
+.heart{
+    width: 100px;
+    height: 160px;
+    position: relative;
+
+    background-color: #e84226;
+    transform-origin: right bottom;
+    border-radius: 15px;
+    transition: .5s ease;
+}
+.heart:hover{
+    transform: rotate(45deg);
+    transition: .5s ease;
+}
+.heart:after{
+    content: ;
+    width: 100px;
+    height: 100px;
+
+    border-radius: 15px;
+    background-color: #a61009;
+    position: absolute;
+}
+.heart:hover:after{
+    transform: rotate(-90deg);
 }
