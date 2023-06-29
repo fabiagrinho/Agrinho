@@ -1,6 +1,7 @@
 @import url(styles/header.css);
 @import url(styles/heart.css);
 @import url(styles/carrosselsangue.css);
+@import url(styles/carrossel.css);
 
 @media screen and (max-width:500px){
     h3{
