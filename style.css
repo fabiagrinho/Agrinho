@@ -2,27 +2,22 @@
 @import url(styles/heart.css);
 @import url(styles/carrosselsangue.css);
 @import url(styles/carrossel.css);
+@import url(styles/cards.css);
+@import url(styles/menu-desktop.css);
 
-@media screen and (max-width:500px){
-    h3{
-        color: red;
-    }
+
+:root{
+    --cor-fundo : #000;
+    --cor-hover : #fb3f25;
+    --cor-primaria : #fff;
 }
-@media print and (max-width: 600px){
-    h3{
-        color: green;
-    }
-}
-@media (max-width: 700px){
-    h3{
-        color: blue;
-    }
-}
+
 body{
     margin: 0;
     padding: 0;
     height: 100vh;
     width: 100vw;
+    background-color: #D9ABFF;
 }
 .sangue{
     height: 500px;

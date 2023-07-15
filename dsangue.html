@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doação de Sangue e Órgãos</title>
-    <link rel="stylesheet" href="reset.css">
+    <title>Doação de Sangue</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/heart.css">
+    <link rel="stylesheet" href="styles/dsangue.css">
 </head>
-
-
-    <body>
+<body>
+    <header>
         <section class="carrossel">
             <!-- Slider main container -->
     <div class="swiper">
@@ -32,6 +31,7 @@
     <!-- If we need scrollbar -->
     <div class="swiper-scrollbar"></div>
         </section>
+
 
         <nav class="dp-menu">
             <ul>
@@ -58,63 +58,19 @@
                 </li>
             </ul>
         </nav>
+       
 
-        <div class="container">
-            <!--Card 1 -->
-            <div class="card card-1">
-                <!-- card-header -->
-                <div class="card-header">
-                    <img src="img/doevida.png" class="card-img" alt="Imagem com um coração e escrita doe sangue doe vida">
-                </div>
-                <!-- card-header -->
+        </header>
 
-                <!-- card-body -->
-                <div class="card-body">
-                    <h2 class="card-titulo">Doação de Sangue</h2>
-                    <p class="card-texto">
-                        A doação de sangue é quando é 
-                        coletado sangue de um doador e armazenado em bancos de sangue ou 
-                        hemocentros para quem precisa.
-                    </p>
-                </div>
-                <!-- card-body -->
+        <section class="retangulo">
+            <h1 class="dsangue">Doação de Sangue</h1>
+        </section>
 
-                <!-- card-footer -->
-                <div class="card-footer">
-                    <a href="dsangue.html">Saiba mais</a>
-                </div>
-                <!-- card-footer -->
+           <p class="doar">A doação de sangue é muito importante para todos. <br>Com uma única bolsa de sangue que é retirada do doador <br>podem ser salvas até quatro pessoas. <br> 
+            Cada pessoa deveria doar pelo menos duas vezes por ano para ajudar <br> a abastecer os estoques dos bancos de sangue.</p> 
+
+            <div class="heart">
             </div>
-            <!--Card 1 -->
-
-            <!--Card 2 -->
-            <div class="card card-2">
-                <!-- card-header -->
-                <div class="card-header">
-                    <img src="img/doaçaoorgaos.jpeg" class="card-img" alt="">
-                </div>
-                <!-- card-header -->
-
-                <!-- card-body -->
-                <div class="card-body">
-                    <h2 class="card-titulo">Doação de Órgãos</h2>
-                    <p class="card-texto">
-                        A doação de órgãos acontece quando um doador 
-                        que pode ser vivo ou já falecido, doa algum órgão 
-                        para o tratamento de outras pessoas.
-                    </p>
-                </div>
-                <!-- card-body -->
-
-                <!-- card-footer -->
-                <div class="card-footer">
-                    <a href="dorgaos.html">Saiba mais</a>
-                </div>
-                <!-- card-footer -->
-            </div>
-            <!--Card 2 -->
-        </div>
-        
         <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
         <script>
             const swiper = new Swiper('.swiper', {
@@ -124,5 +80,6 @@
             },
         });
         </script>
-    </body>
+            
+</body>
 </html>
