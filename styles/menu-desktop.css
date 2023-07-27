@@ -3,17 +3,12 @@
     padding: 0;
 }
 
-:root{
-    --cor-fundo : #000;
-    --cor-hover : #fb3f25;
-    --cor-primaria : #fff;
-}
 
 /*lista*/
 .dp-menu ul{
     margin-top: 0%;
     list-style-type: none;
-    padding: 0;
+    padding: 1em;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
@@ -28,7 +23,7 @@
 }
 
 .dp-menu ul li a{
-    color: var(--cor-primaria);
+    color: var(--cor-preto);
     text-decoration: none;
     padding: 10px;
     transition: background .3s;

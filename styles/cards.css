@@ -15,7 +15,7 @@
     width: 300px;
     height: 460px;
     margin: 25px;
-    background-color: #fff;
+    background-color: var(--cor-branco);
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.7);
@@ -58,11 +58,11 @@
 .card-footer{
     margin-top: 10px;
     text-align: center;
-    background-color: #000;
+    background-color: var(--cor-preto);
 }
 
 .card-footer a {
-    color: #fff;
+    color: var(--cor-branco);
     display: block;
     padding: 16px;
     text-decoration: none;
@@ -72,19 +72,19 @@
 
 /*Cores Cards*/
 .card-1 .card-footer {
-    background-color: #ABE4FF;
+    background-color: var(--cor-do-card1);
 }
 
 .card-1 .card-titulo {
-    color: #ABE4FF;
+    color: var(--cor-do-card1);
 }
 
 .card-2 .card-footer {
-    background-color: #FBC5D8;
+    background-color: var(--cor-do-card2);
 }
 
 .card-2 .card-titulo {
-    color: #FBC5D8;
+    color: var(--cor-do-card2);
 }
 
 /*Animação Hover*/

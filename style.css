@@ -4,20 +4,33 @@
 @import url(styles/carrossel.css);
 @import url(styles/cards.css);
 @import url(styles/menu-desktop.css);
+@import url(styles/dorgaos.css);
+@import url(styles/dsangue.css);
+@import url(oqépreciso.html);
+@import url(styles/responsividade.css);
 
-
+:root{
+    --cor-branco: #FFFFFF;
+    --cor-de-fundo: #D9ABFF;
+    --cor-hover : #fb3f25;
+    --cor-primaria : #fff;
+    --cor-do-titulo-carrossel: red;
+    --cor-do-card1: #ABE4FF;
+    --cor-do-card2: #FBC5D8;
+    --cor-preto: #000000;
+}
 
 body{
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-color: #D9ABFF;
+    background-color: var(--cor-de-fundo)
 }
 .sangue{
     height: 500px;
     left: 1px;
     top: 270px;
-background: #D9ABFF;
+background: var(--cor-de-fundo);
 }
 .sangueeórgãos{
     height: 500px;

@@ -1,5 +1,5 @@
 .swiper-slide img{
-    width: 100%;
+    
     height: 400px;
 }
 .swiper-button-prev1, 
@@ -10,4 +10,9 @@
 .swiper-slide1 img{
     width: 100%;
     height: 200px;
+}
+.carrossel__titulo{
+    text-align: center;
+    font-size: 60px;
+    color: var(--cor-do-titulo-carrossel);
 }
