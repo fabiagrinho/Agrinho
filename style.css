@@ -3,7 +3,6 @@
 @import url(styles/carrosselsangue.css);
 @import url(styles/carrossel.css);
 @import url(styles/cards.css);
-@import url(styles/menu-desktop.css);
 @import url(styles/dorgaos.css);
 @import url(styles/dsangue.css);
 @import url(oqépreciso.html);
@@ -18,13 +17,15 @@
     --cor-do-card1: #ABE4FF;
     --cor-do-card2: #FBC5D8;
     --cor-preto: #000000;
+    --cor-de-azul: #4122d9;
+    --cor-do-retangulo-sangue: #68B2F8;
 }
 
 body{
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-color: var(--cor-de-fundo)
+    background-color: var(--cor-de-fundo);
 }
 .sangue{
     height: 500px;

@@ -7,20 +7,53 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="styles/dsangue.css">
     <link rel="stylesheet" href="styles/dorgaos.css">
-    <link rel="stylesheet" href="styles/menu-desktop.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/header.css">
 </head>
 <body>
-    <header>
-
+    <header class="cabecalho">
+        <nav class="dp-menu">
+            <ul>
+                <li class="doação"><a href="dsangue.html">Doação de Sangue</a>
+                    <ul>
+                        <li><a href="index.html">Ínicio</a></li>
+                        <li><a href="oqépreciso.html">Como ser doador?</a></li>
+                        <li><a href="#">Carteirinha de doação</a></li>
+                        <li><a href="#">Como a coleta é realizada?</a></li>
+                        <li><a href="#">Onde doar?</a></li>
+                    </ul>
+                </li>
+                <li class="doação"><a href="dorgaos.html">Doação de Órgãos</a>
+                    <ul>
+                        <li><a href="index.html">Ínicio</a></li>
+                        <li><a href="#">Por que doar?</a></li>
+                        <li><a href="#">Como doar?</a></li>
+                        <li><a href="#">Tipos de doadores</a></li>
+                        <li><a href="#">Quais órgãos podem ser doados?</a></li>
+                        <li><a href="#">Lista de Espera de Transplante de Órgãos</a></li>
+                        <li><a href="#">Riscos no Pós-Transplante</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
         <section class="carrossel">
             <!-- Slider main container -->
             <div class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide"><img src="img/Ínicio.png" alt=""></div>
-                <div class="swiper-slide"><img src="img/Junho Vermelho.png" alt=""></div>
-                <div class="swiper-slide"><img src="img/carrossel2.png" alt=""></div>
+                <div class="swiper-slide">
+                    <h3 class="carrossel__titulo1">Doação de Sangue e Órgãos</h3>
+                    <img class="sangue__carrossel__img" src="img/sangue__carrossel.png" alt=""></div>
+                    <img class="orgão__carrossel__img" src="img/órgão__carrossel.png" alt="">
+                <div class="swiper-slide">
+                    <h3 class="carrossel__titulo2">Junho Vermelho</h3>
+                    <p class="carrossel__frase">É o mês da conscientização sobre a doação de sangue</p>
+                    <img src="img/bolsas de sangue.png" alt=""></div>
+                <div class="swiper-slide">
+                    <p class="carrossel__frase2">Setembro é o mês da conscientização da importância da doação de órgãos</p>
+                    <img src="img/Doação de.png" alt=""></div>
             </div>
 
             <!-- If we need pagination -->
@@ -29,40 +62,15 @@
             <!-- If we need navigation buttons -->
             <div class="swiper-button-prev1"></div>
             <div class="swiper-button-next1"></div>
-  
+            
             <!-- If we need scrollbar -->
             <div class="swiper-scrollbar"></div>
         </section>
-    </header>
 
-    <nav class="dp-menu">
-        <ul>
-            <li class="doação"><a href="dsangue.html">Doação de Sangue</a>
-                <ul>
-                    <li><a href="index.html">Ínicio</a></li>
-                    <li><a href="oqépreciso.html">Como ser doador?</a></li>
-                    <li><a href="#">Carteirinha de doação</a></li>
-                    <li><a href="#">Como a coleta é realizada?</a></li>
-                    <li><a href="#">Onde doar?</a></li>
-                </ul>
-            </li>
-            <li class="doação"><a href="dorgaos.html">Doação de Órgãos</a>
-                <ul>
-                    <li><a href="index.html">Ínicio</a></li>
-                    <li><a href="#">Por que doar?</a></li>
-                    <li><a href="#">Como doar?</a></li>
-                    <li><a href="#">Tipos de doadores</a></li>
-                    <li><a href="#">Quais órgãos podem ser doados?</a></li>
-                    <li><a href="#">Lista de Espera de Transplante de Órgãos</a></li>
-                    <li><a href="#">Riscos no Pós-Transplante</a></li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
 
-    <section class="retangulo">
+    
+    
         <h1 class="dorgaos">Doação de Órgãos</h1>
-    </section>
 
     <p class="doarorg">A doação de órgãos acontece quando um doador que pode ser vivo <br> ou já falecido, doa algum órgão para o tratamento de outras pessoas.</p>
 
