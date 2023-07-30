@@ -6,13 +6,14 @@
 .cabecalho{
     background-color: var(--cor-branco);
 }
+
 /*lista*/
 .dp-menu ul{
     margin-top: 0%;
     list-style-type: none;
     padding: 1em;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
+    
 }
 
 .dp-menu ul{
@@ -45,6 +46,7 @@
 
 .dp-menu ul li:hover ul{
     display: block;
+   
 }
 .dp-menu ul ul{
     width: 150px;

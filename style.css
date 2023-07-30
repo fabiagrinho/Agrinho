@@ -1,12 +1,13 @@
 @import url(styles/header.css);
 @import url(styles/heart.css);
-@import url(styles/carrosselsangue.css);
 @import url(styles/carrossel.css);
 @import url(styles/cards.css);
 @import url(styles/dorgaos.css);
 @import url(styles/dsangue.css);
-@import url(oqépreciso.html);
-@import url(styles/responsividade.css);
+@import url(styles/oqépreciso.css);
+@import url(styles/footer.css);
+@import url(styles/carteirinha_sangue.css);
+@import url(styles/como_a_coleta.css);
 
 :root{
     --cor-branco: #FFFFFF;
@@ -18,7 +19,7 @@
     --cor-do-card2: #FBC5D8;
     --cor-preto: #000000;
     --cor-de-azul: #4122d9;
-    --cor-do-retangulo-sangue: #68B2F8;
+    --cor-do-retangulo: #c181ff;
 }
 
 body{

@@ -2,13 +2,13 @@
 @import url(carrossel.css);
 
 body{
-    background-color: #ABE4FF;;
+    background-color: var(--cor-de-fundo);
 }
 .dsangue{
     width: 100%;
     height: 123px;
     flex-shrink: 0;
-    color: #F00;
+    color: var(--cor-do-titulo-carrossel);
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 60px;
@@ -20,7 +20,7 @@ body{
     width: 100%;
     height: 79px;
     flex-shrink: 0;
-    background: var(--cor-do-retangulo-sangue);
+    background-color: var(--cor-do-retangulo);
 }
 
 .doar{
