@@ -11,7 +11,7 @@
     height: 50px;
 }
 .carrossel{
-    background-color: #d572ea;
+    background-color: var(--cor-do-fundo-carrossel);
 }
 .orgão__carrossel__img{
     height: 250px;
