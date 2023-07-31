@@ -5,52 +5,54 @@
 
 .cabecalho{
     background-color: var(--cor-branco);
-}
-
-/*lista*/
-.dp-menu ul{
-    margin-top: 0%;
-    list-style-type: none;
-    padding: 1em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
-}
-
-.dp-menu ul{
-    background-color: var(--cor-fundo);
+    display: flex;
     position: relative;
 }
 
-.dp-menu ul li{
-    display: inline-block;
-}
-
-.dp-menu ul li a{
-    color: var(--cor-preto);
-    text-decoration: none;
-    padding: 10px;
-    transition: background .3s;
-}
-
-.dp-menu ul li a:hover {
-    background-color: var(--cor-hover)
-}
-
-/*sub menu*/
-
-.dp-menu ul ul{
+.lista-menu{
     display: none;
-    left: 1;
     position: absolute;
+    top: 100%;
+    width: 10vw;
+}
+.container__botao:checked~.lista-menu{
+    display: block;
+}
+.lista-menu__link{
+    background-color: var(--cor-de-fundo);
+    -webkit-background-clip: text;
+    -webkit-background-clip: transparent;
+    background-color: text;
+    text-decoration: none;
+}
+.opções__doação, .lista-menu__item{
+    padding: 1em;
+    background-color: var(--cor-branco);
+}
+.container__botao{
+    display: none;
 }
 
-.dp-menu ul li:hover ul{
-    display: block;
-   
+/* 320px - 480px = mobile*/
+@media  screen and (min-width: 320px) {
+    
 }
-.dp-menu ul ul{
-    width: 150px;
+/* 480px - 768px = tablet */
+@media screen and (min-width: 480px) {
+    
 }
-.dp-menu ul ul li a {
-    display: block;
+/* 768px - 1024px = telas menores, laptops */
+@media screen and (min-width: 480px) {
+    
+}
+/* 1024px - 1200px = desktop */
+@media screen and (min-width: 480px) {
+    
+}
+/* 1200px e + = telas maiores, tvs */
+@media screen and (min-width: 480px) {
+    .carrossel__titulo1{
+        font-size: 70px;
+        margin-left: 7%;
+    }
 }
