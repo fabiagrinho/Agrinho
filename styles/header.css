@@ -14,6 +14,8 @@
     position: absolute;
     top: 100%;
     width: 10vw;
+    z-index: 2;
+    list-style: none;
 }
 .container__botao:checked~.lista-menu{
     display: block;
@@ -21,26 +23,63 @@
 .lista-menu__link{
     background-color: var(--cor-de-fundo);
     -webkit-background-clip: text;
-    -webkit-background-clip: transparent;
-    background-color: text;
+    background-clip: text;
+    color: var(--cor-de-azul);
     text-decoration: none;
 }
+
 .opções__doação, .lista-menu__item{
     padding: 1em;
     background-color: var(--cor-branco);
+    list-style: none;
 }
 .container__botao{
     display: none;
 }
 
-/* 320px - 480px = mobile*/
-@media  screen and (min-width: 320px) {
-    
+/* === removing default button style ===*/
+.button {
+  margin: 0;
+  height: auto;
+  background: transparent;
+  padding: 0;
+  border: none;
 }
-/* 480px - 768px = tablet */
-@media screen and (min-width: 480px) {
-    
+
+/* button styling */
+.button {
+  --border-right: 6px;
+  --text-stroke-color: rgba(255,255,255,0.6);
+  --animation-color: #37FF8B;
+  --fs-size: 2em;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: var(--fs-size);
+  font-family: "Arial";
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--text-stroke-color);
 }
+/* this is the text, when you hover on button */
+.hover-text {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px var(--animation-color);
+}
+/* hover */
+.button:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 23px var(--animation-color))
+}
+
 /* 768px - 1024px = telas menores, laptops */
 @media screen and (min-width: 768px) {
     
@@ -49,10 +88,3 @@
 @media screen and (min-width: 1024px) {
     
 }
-/* 1200px e + = telas maiores, tvs 
-@media screen and (min-width: 1200px) {
-    .carrossel__titulo1{
-        font-size: 70px;
-        margin-left: 7%;
-    }
-}*/
