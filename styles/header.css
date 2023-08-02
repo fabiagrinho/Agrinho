@@ -42,17 +42,17 @@
     
 }
 /* 768px - 1024px = telas menores, laptops */
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
     
 }
 /* 1024px - 1200px = desktop */
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 1024px) {
     
 }
-/* 1200px e + = telas maiores, tvs */
-@media screen and (min-width: 480px) {
+/* 1200px e + = telas maiores, tvs 
+@media screen and (min-width: 1200px) {
     .carrossel__titulo1{
         font-size: 70px;
         margin-left: 7%;
     }
-}
+}*/

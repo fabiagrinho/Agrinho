@@ -8,6 +8,8 @@
 @import url(styles/footer.css);
 @import url(styles/carteirinha_sangue.css);
 @import url(styles/como_a_coleta.css);
+@import url(styles/carrossel__sangue.css);
+@import url(styles/onde_doar_s.css);
 
 :root{
     --cor-branco: #FFFFFF;
