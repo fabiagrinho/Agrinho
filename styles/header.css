@@ -1,11 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
 .cabecalho{
     background-color: var(--cor-branco);
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: relative;
 }
 
@@ -36,6 +33,27 @@
 .container__botao{
     display: none;
 }
+/*Botão 2*/
+.container__botao2:checked~.lista-menu{
+  display: block;
+}
+.lista-menu__link{
+  background-color: var(--cor-de-fundo);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: var(--cor-de-azul);
+  text-decoration: none;
+}
+
+.opções__doação2, .lista-menu__item{
+  padding: 1em;
+  background-color: var(--cor-branco);
+  list-style: none;
+}
+.container__botao2{
+  display: none;
+}
+
 
 /* === removing default button style ===*/
 .button {
@@ -49,8 +67,8 @@
 /* button styling */
 .button {
   --border-right: 6px;
-  --text-stroke-color: rgba(255,255,255,0.6);
-  --animation-color: #37FF8B;
+  --text-stroke-color: rgba(24, 176, 196, 0.6);
+  --animation-color: #b23dff;
   --fs-size: 2em;
   letter-spacing: 3px;
   text-decoration: none;
