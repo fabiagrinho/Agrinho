@@ -55,23 +55,26 @@
         <section class="carrossel">
             <!-- Slider main container -->
             <div class="swiper">
-                <!-- Additional required wrapper -->
+                    <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                    <h3 class="carrossel__titulo1">Doação de Sangue e Órgãos</h3>
-                    <img class="sangue__carrossel__img" src="img/sangue__carrossel.png" alt="Imagem de uma gota de sangue com um fundo de vermelho com um rosa claro"></div>
-                    <img class="orgão__carrossel__img" src="img/órgão__carrossel.png" alt="Imagem de dois bonequinhos onde um esta com um coração em vermelho e outro com um coração pontilhado de vermelho, e um esta doando esse órgão para o outro">
-                <div class="swiper-slide">
-                    <h3 class="carrossel__titulo2">Junho Vermelho</h3>
-                    <p class="carrossel__frase">É o mês da conscientização sobre a doação de sangue</p>
-                    <img src="img/bolsas de sangue.png" alt="Imagem com três bolsas de sangue"></div>
-                <div class="swiper-slide">
-                    <p class="carrossel__frase2">Setembro é o mês da conscientização da importância da doação de órgãos</p>
-                    <img src="img/Doação de.png" alt="Imagem de um coração humano com a escrita de doação de órgãos em volta"></div>
-            
-            </div>
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <h3 class="carrossel__titulo1">Doação de Sangue e Órgãos</h3>
+                        <img class="sangue__carrossel__img" src="img/sangue__carrossel.png" alt="Imagem de uma gota de sangue com um fundo de vermelho com um rosa claro">
+                    </div>
+                        <img class="orgão__carrossel__img" src="img/órgão__carrossel.png" alt="Imagem de dois bonequinhos onde um esta com um coração em vermelho e outro com um coração pontilhado de vermelho, e um esta doando esse órgão para o outro">
+                    <div class="swiper-slide">
+                        <h3 class="carrossel__titulo2">Junho Vermelho</h3>
+                        <p class="carrossel__frase">É o mês da conscientização sobre a doação de sangue</p>
+                        <img src="img/bolsas de sangue.png" alt="Imagem com três bolsas de sangue">
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="carrossel__frase2">Setembro é o mês da conscientização da importância da doação de órgãos</p>
+                        <img src="img/Doação de.png" alt="Imagem de um coração humano com a escrita de doação de órgãos em volta">
+                    </div>
+                
                 </div>
+            </div>
 
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
@@ -94,27 +97,14 @@
             <div class="heart"></div>
 
 
-            <section class="carrossel1">
-                <h2 class="carrossel__titulo_s">Descubra Mais</h2>
-                        <!-- Slider main container -->
-                <div class="swiper">
-                     <!-- If we need pagination -->
-                    <div class="swiper-pagination-s"></div>
-                    <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                        <!-- Slides -->
-                       <a href="oqépreciso.html"><div class="swiper-slide-s"><img src="img/5.png" alt="Uma imagem com um fundo vermelho, com um desenho de um braço doando sangue e a escrita como ser doador?"></div></a>
-                       <a href="carteirinha_sangue.html"><div class="swiper-slide-s"><img src="img/3 - Copia - Copia.png" alt="Uma imagem com um fundo vermelho, com um desenho de uma carteirinha de doação de sangue, e a escrita carteirinha de doação"></div></a>
-                       <a href="como_a_coleta.html"><div class="swiper-slide-s"><img src="img/como a coleta é realizada.png" alt="Uma imagem com um fundo vermelho, com um desenho de uma bolsa de sangue e a escrita Como a coleta é realizada?"></div></a>
-                       <a href="onde_doar_s.html"><div class="swiper-slide-s"><img src="img/1.png" alt="Uma imagem com um fundo vermelho, com um desenho de um icone de lugar e a escrita Onde doar?"></div></a>
-                    </div>
-    
-                
-                        <!-- If we need navigation buttons -->
-                        <div class="swiper-button-prev-s"></div>
-                        <div class="swiper-button-next-s"></div>
-                </div>
-    
+            <section class="listadoaçãos__imagens">
+                <h2 class="listadoaçãos__titulo_s">Descubra Mais</h2>
+                    <div class="doaçãos__div">  
+                        <a href="oqépreciso.html"><img class="doaçãos-slide-s" src="img/5.png" alt="Uma imagem com um fundo vermelho, com um desenho de um braço doando sangue e a escrita como ser doador?"></a>
+                        <a href="carteirinha_sangue.html"><img class="doaçãos-slide-s" src="img/3 - Copia - Copia.png" alt="Uma imagem com um fundo vermelho, com um desenho de uma carteirinha de doação de sangue, e a escrita carteirinha de doação"></a>
+                        <a href="como_a_coleta.html"><img class="doaçãos-slide-s" src="img/como a coleta é realizada.png" alt="Uma imagem com um fundo vermelho, com um desenho de uma bolsa de sangue e a escrita Como a coleta é realizada?"></a>
+                        <a href="onde_doar_s.html"><img class="doaçãos-slide-s" src="img/1.png" alt="Uma imagem com um fundo vermelho, com um desenho de um icone de lugar e a escrita Onde doar?"></a>
+                    </div>   
             </section>
     
             
@@ -140,18 +130,6 @@
             
         </script>
 
-        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-        <script>
-            const swiper = new Swiper('.swiper', {
-            spaceBetween: 10,
-            slidesPerView: 3,
-            pagination: {
-            el: '.swiper-pagination',
-            type: 'bullets',
-                },
-            });
-        </script>
-
-            
+             
 </body>
 </html>
