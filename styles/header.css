@@ -5,7 +5,7 @@
     align-items: center;
     position: relative;
 }
-
+/*Botão 1*/
 .lista-menu{
     display: none;
     position: absolute;
@@ -21,8 +21,12 @@
     background-color: var(--cor-de-fundo);
     -webkit-background-clip: text;
     background-clip: text;
-    color: var(--cor-de-azul);
+    color: rgb(155, 21, 21);
     text-decoration: none;
+}
+
+a {
+  color: inherit;
 }
 
 .opções__doação, .lista-menu__item{
