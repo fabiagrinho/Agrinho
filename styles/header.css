@@ -1,3 +1,6 @@
+body{
+  font-family: var(--fonte-principal);
+}
 .cabecalho{
     background-color: var(--cor-branco);
     display: flex;
@@ -19,8 +22,6 @@
 }
 .lista-menu__link{
     background-color: var(--cor-de-fundo);
-    -webkit-background-clip: text;
-    background-clip: text;
     color: rgb(155, 21, 21);
     text-decoration: none;
 }

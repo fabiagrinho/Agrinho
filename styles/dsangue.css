@@ -3,6 +3,7 @@
 
 body{
   background-color: var(--cor-de-fundo);
+  font-family: var(--fonte-principal);
 }
 .dsangue{
   width: 100%;
@@ -10,10 +11,9 @@ body{
   flex-shrink: 0;
   color: var(--cor-do-titulo-carrossel);
   text-align: center;
-  font-family: Edu SA Beginner;;
   font-size: 60px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: normal;
 }
 .retangulo{
@@ -103,6 +103,10 @@ body{
 .card2:hover svg {
   scale: 0;
   transform: rotate(-45deg);
+}
+.img__card__s{
+  width: 500px;
+  height: 250px;
 }
   
   /*Card 3*/

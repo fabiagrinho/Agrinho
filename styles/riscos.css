@@ -1,3 +1,6 @@
+body{
+    font-family: var(--fonte-principal);
+}
 .retangulo{
     width: 100%;
     height: 79px;
@@ -10,11 +13,13 @@
     flex-shrink: 0;
     color: var(--cor-do-titulo-carrossel);
     text-align: center;
-    font-family: Edu SA Beginner;
     font-size: 50px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
+}
+.riscos__cards{
+    display: flex;
 }
 /*card1*/
 .card8 {
@@ -25,8 +30,8 @@
     box-shadow: 0.3em 0.3em 0.7em #00000015;
     transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     border: rgb(250, 250, 250) 0.2em solid;
-    margin-left: 5em;
     margin: 3em;
+    margin-left: 20em;
    }
    
    .card8:hover {

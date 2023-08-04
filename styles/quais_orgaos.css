@@ -1,3 +1,7 @@
+body{
+  font-family: var(--fonte-principal);
+}
+    
 .retangulo{
     width: 100%;
     height: 79px;
@@ -10,18 +14,17 @@
     flex-shrink: 0;
     color: var(--cor-do-titulo-carrossel);
     text-align: center;
-    font-family: Edu SA Beginner;
     font-size: 50px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
 }
 /*card 1*/
 .book1 {
     position: relative;
     border-radius: 10px;
-    width: 220px;
-    height: 300px;
+    width: 290px;
+    height: 400px;
     background-color: whitesmoke;
     -webkit-box-shadow: 1px 1px 12px #000;
     box-shadow: 1px 1px 12px #000;
@@ -40,12 +43,13 @@
     -ms-flex-pack: center;
     justify-content: center;
     color: #000;
+    margin-left: 30em;
   }
   
   .cover1 {
     top: 0;
     position: absolute;
-    background-color: lightgray;
+    background-color: #cbb4c0;
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -77,16 +81,20 @@
   }
   
   .podem {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bolder;
+  }
+  .cards__quais{
+    display: flex;
+    margin: 4em;
   }
 /*card2*/
   .book2 {
     position: relative;
     border-radius: 10px;
-    width: 220px;
-    height: 300px;
-    background-color: whitesmoke;
+    width: 290px;
+    height: 400px;
+    background-color: rgb(247, 247, 247);
     -webkit-box-shadow: 1px 1px 12px #000;
     box-shadow: 1px 1px 12px #000;
     -webkit-transform: preserve-3d;
@@ -104,12 +112,13 @@
     -ms-flex-pack: center;
     justify-content: center;
     color: #000;
+    margin-left: 20em;
   }
   
   .cover2 {
     top: 0;
     position: absolute;
-    background-color: lightgray;
+    background-color: #cbb4c0;
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -141,6 +150,11 @@
   }
   
   .podem {
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bolder;
+    margin: 2em;
+  }
+  .texto__book1{
+    font-size: 27px;
+    margin-left: 1em;
   }

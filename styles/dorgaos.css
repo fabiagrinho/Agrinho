@@ -1,5 +1,6 @@
 body{
     background-color: var(--cor-do-card2);
+    font-family: var(--fonte-principal);
 }
 .dorgaos{
     width: 100%;
@@ -7,10 +8,9 @@ body{
     flex-shrink: 0;
     color: var(--cor-do-titulo-carrossel);
     text-align: center;
-    font-family: Edu SA Beginner;
     font-size: 60px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
 }
 .retangulo{

@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    font-family: var(--fonte-principal);
+}
 .container{
     width: 100%;
     display: flex;

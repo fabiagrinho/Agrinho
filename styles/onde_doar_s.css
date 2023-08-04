@@ -1,3 +1,6 @@
+body{
+  font-family: var(--fonte-principal);
+}
 .onde__s{
   color: var(--cor-preto);
   margin-top: 2%;
@@ -11,7 +14,7 @@
   margin: 3em;
 }
 .como{
-  font-family: Edu SA Beginner;
+  font-weight: 700;
 }
 /*botão*/
 .cssbuttons-io-button {
