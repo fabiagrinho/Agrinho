@@ -20,7 +20,8 @@
     width: 498px;
     height: 300px;
     perspective: 1000px;
-    margin-left: 26em;
+    margin: 3em;
+    margin-left: 700px;
   }
   
   .card-inner4 {

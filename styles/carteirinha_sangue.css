@@ -20,64 +20,67 @@
     font-size: 30px;
     text-align: justify;
 }
-.foto{
-    height: 230px;
-    width: 230px;
-    margin-top: -120%;
-    margin-left: 70%;
+.foto__carteirinha{
+    height: 23em;
+    width: 23em;
 }
-/*card5*/
-.card5 {
+  
+.card6 {
     position: relative;
-    width: 500px;
-    height: 300px;
-    background-color: var(--cor-de-fundo);
+    width: 300px;
+    height: 200px;
+    background: var(--cor-branco);
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    perspective: 1000px;
-    box-shadow: 0 0 0 5px #ffffff80;
-    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    margin-left: 26em;
-}
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    margin: 3em;
+    margin-left: 41.5em;
+  }
   
-
-.card5:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
-}
+  .card6 svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
   
-.card__content5 {
+  .card6:hover {
+    transform: rotate(-5deg) scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card__content6 {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
     width: 100%;
     height: 100%;
     padding: 20px;
     box-sizing: border-box;
-    background-color: #f2f2f2;
-    transform: rotateX(-90deg);
-    transform-origin: bottom;
-    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
+    background-color: #fff;
+    opacity: 0;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
   
-.card5:hover .card__content5 {
-    transform: rotateX(0deg);
-}
+  .card6:hover .card__content6 {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
   
-.card__img_5{
-    width: 400px;
-    height: 300px;
-}
-
-.card__description5 {
-    margin: 10px 0 0;
-    font-size: 23px;
+  .card__description6 {
+    font-size: 1.6em;
     color: var(--cor-preto);
-}
+    line-height: 1.4;
+    margin: 1em;
+  }
   
+  .card6:hover svg {
+    scale: 0;
+    transform: rotate(-45deg);
+  }
 /* 768px - 1024px = telas menores, laptops */
 @media screen and (min-width: 768px) {
 .foto{
