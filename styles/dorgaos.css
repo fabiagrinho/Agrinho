@@ -7,7 +7,7 @@ body{
     flex-shrink: 0;
     color: var(--cor-do-titulo-carrossel);
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Edu SA Beginner;
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
@@ -34,4 +34,36 @@ body{
     height: 270px;
     width: 270px;
     margin-left: 70%;
+}
+.listadoaçãoo__imagens{
+    display: flex;
+}
+.listadoaçãos__titulo_o{
+    position: absolute;
+    background-color: var(--cor-do-retangulo);
+    width: 100%;
+    height: 43px;
+    font-size: 35px;
+    margin-top: 0.5em;
+}
+.doaçãos-slide-o{
+    width: 320px;
+    height: 320px;
+    padding: 4.3em;
+    border-radius: 95px;
+}
+/* 768px - 1024px = telas menores, laptops */
+@media screen and (min-width: 768px) {
+    .doaçãos-slide-o{
+      width: 200px;
+      height: 200px;
+      padding: 1em;
+      border-radius: 55px;
+      margin-top: 5em;
+      margin-left: 2em;
+  }
+}
+/* 1024px - 1200px = desktop */
+@media screen and (min-width: 1024px) {
+    
 }
