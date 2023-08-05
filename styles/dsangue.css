@@ -93,7 +93,7 @@ body{
   
 .card__description2 {
   margin: 10px 0 0;
-  font-size: 23px;
+  font-size: 19px;
   color: var(--cor-preto);
   line-height: 1.4;
   text-align: justify;
@@ -164,7 +164,7 @@ body{
   
 .card__description3 {
   margin: 10px 0 0;
-  font-size: 21px;
+  font-size: 19px;
   color: var(--cor-preto);
   line-height: 1.4;
   text-align: justify;
